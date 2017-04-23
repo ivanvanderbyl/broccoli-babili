@@ -1,0 +1,40 @@
+{
+  "name": "broccoli-babili",
+  "version": "0.1.0",
+  "description": "Minify javascript using babili",
+  "main": "lib/babili-plugin.js",
+  "scripts": {
+    "test": "qunit tests/**/*-test.js"
+  },
+  "keywords": [
+    "broccoli",
+    "broccoli-plugin"
+  ],
+  "author": "Gil Pedersen <gpdev@gpost.dk>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-babili": "0.0.12",
+    "broccoli-plugin": "^1.3.0",
+    "symlink-or-copy": "^1.1.8",
+    "walk-sync": "^0.3.1"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "devDependencies": {
+    "broccoli-test-helper": "^1.1.0",
+    "co": "^4.6.0",
+    "eslint-plugin-qunit": "^3.0.0",
+    "qunit-eslint": "^1.0.0",
+    "qunitjs": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ember-cli/broccoli-babili.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ember-cli/broccoli-babili.git/issues"
+  },
+  "homepage": "https://github.com/ember-cli/broccoli-babili#readme"
+}
