@@ -73,5 +73,22 @@ function foo() {
       'some.js': `\n//# sourceMappingURL=some.map\n`,
       'some.map': `{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\",\"file\":\"some.js\",\"sourcesContent\":[\"\"]}`,
     });
+
+  }));
+
+  it('does not error when input sourcemaps exist', co.wrap(function *(assert) {
+    input.write({
+      'some.js': ``,
+      'some.map': '',
+    });
+
+    createBuilder();
+
+    yield output.build();
+
+    assert.deepEqual(output.read(), {
+      'some.js': `\n//# sourceMappingURL=some.map\n`,
+      'some.map': `{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\",\"file\":\"some.js\",\"sourcesContent\":[\"\"]}`,
+    });
   }));
 });
