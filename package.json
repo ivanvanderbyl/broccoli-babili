@@ -1,6 +1,6 @@
 {
   "name": "broccoli-babili",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Minify javascript using babili",
   "main": "lib/babili-plugin.js",
   "scripts": {
