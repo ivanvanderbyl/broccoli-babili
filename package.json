@@ -10,8 +10,8 @@
     "broccoli",
     "broccoli-plugin"
   ],
-  "author": "Gil Pedersen <gpdev@gpost.dk>",
-  "license": "BSD-2-Clause",
+  "author": "Sivakumar Kailasam <sivakumar.ur.friend@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-preset-babili": "0.0.12",
