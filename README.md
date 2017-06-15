@@ -1,5 +1,7 @@
 # broccoli-babili
 
+[![Build Status](https://travis-ci.org/ember-cli/broccoli-babili.svg?branch=master)](https://travis-ci.org/ember-cli/broccoli-babili)
+
 Minify javascript using babili
 
 ## Install
